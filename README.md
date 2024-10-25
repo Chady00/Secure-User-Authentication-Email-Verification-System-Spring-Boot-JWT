@@ -71,25 +71,25 @@ To set up the project locally, follow these steps:
 ## Usage
 Once the application is running, you can interact with the following endpoints:
 
-POST /api/auth/signup: Register a new user.
+-POST /api/auth/signup: Register a new user.
 
 ![Screenshot 2024-10-26 003729](https://github.com/user-attachments/assets/cf6752c0-3b9c-4d93-a791-38a1a5b81400)
 
-POST /api/auth/verify: Verify the user's account using a verification code.
+-POST /api/auth/verify: Verify the user's account using a verification code.
 
 ![verify](https://github.com/user-attachments/assets/f6cf640e-855a-474b-aecd-6a3054a335cc)
 
-POST /api/auth/login: Log in and receive a JWT token.
+-POST /api/auth/login: Log in and receive a JWT token.
 
 ![Screenshot 2024-10-26 003127](https://github.com/user-attachments/assets/d5ddfffe-be1f-4396-b657-f92f2417f0c0)
 
-POST /api/auth/resend: Resend the verification code to the user's email.
+-POST /api/auth/resend: Resend the verification code to the user's email.
 
 ![Screenshot 2024-10-26 003801](https://github.com/user-attachments/assets/cc17f1e9-8082-42c2-b23d-d33b42962965)
 
 
-GET /users/me: Retrieve details of the authenticated user.
+-GET /users/me: Retrieve details of the authenticated user.
 
 ![Screenshot 2024-10-26 003118](https://github.com/user-attachments/assets/b435ab2c-dcc1-4280-b8ec-3f7862b7c4b8)
 
-GET /users/: Get a list of all users.`
+-GET /users/: Get a list of all users.`
