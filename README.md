@@ -10,8 +10,6 @@
   - [4. Security](#4-security)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 This project is a user authentication and email verification system built using Spring Boot. It provides a robust solution for user registration, login, and email verification, employing JWT (JSON Web Token) for secure authentication. The system is designed to be scalable and easily extendable, making it suitable for various applications.
@@ -74,8 +72,13 @@ To set up the project locally, follow these steps:
 Once the application is running, you can interact with the following endpoints:
 
 `POST /api/auth/signup: Register a new user.
+
 POST /api/auth/verify: Verify the user's account using a verification code.
+
 POST /api/auth/login: Log in and receive a JWT token.
+
 POST /api/auth/resend: Resend the verification code to the user's email.
+
 GET /users/me: Retrieve details of the authenticated user.
+
 GET /users/: Get a list of all users.`
