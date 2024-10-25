@@ -77,8 +77,12 @@ POST /api/auth/verify: Verify the user's account using a verification code.
 
 POST /api/auth/login: Log in and receive a JWT token.
 
+![Screenshot 2024-10-26 003127](https://github.com/user-attachments/assets/d5ddfffe-be1f-4396-b657-f92f2417f0c0)
+
 POST /api/auth/resend: Resend the verification code to the user's email.
 
 GET /users/me: Retrieve details of the authenticated user.
+
+![Screenshot 2024-10-26 003118](https://github.com/user-attachments/assets/b435ab2c-dcc1-4280-b8ec-3f7862b7c4b8)
 
 GET /users/: Get a list of all users.`
